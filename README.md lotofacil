@@ -1,0 +1,27 @@
+Instruções para Rodar o Projeto:
+
+1. Versão do JDK Utilizada: JDK 8 na versão 1.9.23.
+
+2. Bibliotecas Utilizadas:
+   - `java.util.Scanner`: Utilizei para ler entradas do usuário.
+   - `java.util.Random`: Utilizei para gerar números aleatórios.
+
+3. Passos para Executar o Projeto:
+case 1:
+   -utilizei "system.out.println" para aparecer a mensagem "Digite um número de 0 a 100: "
+   -Eu utilizei o "Int" para ler números inteiros
+   -Utilizei o "if" para que a aposta seja feita de 0 a 100, caso o numero apostado seja menor ou maior 
+     ele retorna a mensagem de aposta inválida 
+   -"int" foi utilizado para sortear um numero de 0 a 100 
+   -"if e else" foram usados para caso se a pessoa ganhar ela receber a mensagem de "você ganhou 1,000.00 reais", caso ela tenha errado receber a mensagem "Que pena! O número sorteado foi: "
+case 2:
+   -utilizei "system.out.println" para aparecer a mensagem "Digite uma letra de A a Z: "
+   -"char" foi utilizado para ler qual letra o usuário digitar 
+   -"if" foi utilizado para caso o usuário digitar algo além de letras recebera a resposta de "Aposta inválida."
+   -"char" foi utilizado para ler a letra premiada 
+   -"if e else" foram ultilizados para que caso o usuario digite a letra premiado receba a mensagem 
+   -"Você ganhou R$ 500,00 reais." e caso o usuario digite a letra errada "Que pena! A letra sorteada foi: " + a letra premiada 
+case 3:
+   - utilizei "system.out.println" para aparecer a mensagem "Digite um número inteiro: "
+   -"int" para ler números inteiros 
+   -"if e else" foram utilizados para que faça a leitura de números pares, caso o usuário digite um numero par, apareça a mensagem "Você ganhou R$ 100,00 reais.", caso ele digite um numero impar ele recebera a mensagem "Que pena! O número digitado é ímpar e a premiação foi para números pares."
